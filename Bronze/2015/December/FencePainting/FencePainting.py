@@ -23,8 +23,8 @@ d = int(cd[cd.index(" ") + 1])
 
 count = 0
 for i in range(100):
-    if ((i >= a and i < b) or (i >= c and i < d)):
+    if (i >= a and i < b) or (i >= c and i < d):
         count += 1
 
-fp = open("paint.out", 'w')
+fp = open("paint.out", "w")
 fp.write(str(count))
