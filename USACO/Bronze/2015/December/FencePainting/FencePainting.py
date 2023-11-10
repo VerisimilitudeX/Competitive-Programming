@@ -15,10 +15,10 @@ for i, line in enumerate(f):
     elif i == 1:
         cd = line.strip("\n")
 
-a = int(ab[0:ab.index(" ")])
-b = int(ab[ab.index(" ") + 1::])
+a = int(ab[0 : ab.index(" ")])
+b = int(ab[ab.index(" ") + 1 : :])
 
-c = int(cd[0:cd.index(" ")])
+c = int(cd[0 : cd.index(" ")])
 d = int(cd[cd.index(" ") + 1])
 
 count = 0
